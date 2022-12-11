@@ -1,2 +1,2 @@
 console.log("asoifhuaosifhaoif");
-var x = 10
+var x = 50
