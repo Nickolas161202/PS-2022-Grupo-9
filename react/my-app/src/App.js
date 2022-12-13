@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import navbar from './navbar';
 
+// Não sei bem se é para ser um "component" para cada parte do site, ou um para tudo que vai estar no html. Nesse caso eu botei como se fosse só para a navbar.
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <navbar />
+      <input type="text" />
+    </>
+  )
 }
 
 export default App;
