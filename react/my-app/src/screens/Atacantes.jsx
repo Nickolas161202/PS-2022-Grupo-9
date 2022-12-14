@@ -1,7 +1,7 @@
 import PlayerBlue from "../components/common/PlayerBlue"
 import PlayerGreen from "../components/common/PlayerGreen"
 
-const Attackers = () =>{
+const Atacantes = () =>{
  return(
  <div>
         <ol>
@@ -49,4 +49,4 @@ const Attackers = () =>{
     )
 }
 
-export default Attackers
+export default Atacantes

@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import ideLogo from './/imagens/ide.svg';
 import cbfLogo from './/imagens/cbf.svg';
+
 export default function Footer() {
   return (
     <div>
@@ -42,7 +43,6 @@ export default function Footer() {
             <div className=" col-md-2 ">
               
               <img src={ideLogo}  className="imagem_rodape " alt = "Ide Company"  ></img>
-
               
             </div>
              {/*<!--Grid column-->*/}
