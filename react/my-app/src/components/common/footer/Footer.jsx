@@ -1,58 +1,47 @@
 import React from 'react';
 import './Footer.css';
-import ideLogo from './/imagens/imagem_ide.png';
-import cbfLogo from './/imagens/logo-cbf.png';
+import ideLogo from './/imagens/ide.svg';
+import cbfLogo from './/imagens/cbf.svg';
 export default function Footer() {
   return (
     <div>
-      <footer className=" text-center text-lg-start text-light">
+      <footer className="text-light ">
         {/*<!-- Grid container -->*/}
-        <div className="container p-4">
+        <div className="container ">
           {/*<!--Grid row-->*/}
           <div className="row">
-             {/*<!--Grid column-->*/}
-            <div className="col-lg-2 col-md-4  ">
-            <img src={cbfLogo} alt = "Cbf Company"></img>
-
-              
+             
+            <div className=" col-md-2 float-left ">
+            <img src={cbfLogo} className="imagem_rodape_cbf" alt = "Cbf Company"></img>
             </div>
-             {/*<!--Grid column-->*/}
-
-             
-
-             {/*<!--Grid column-->*/}
-            <div className="col-lg-8 col-md-4 border-test">
-              <div className="footer_texto border-test ">Confederação Brasileira de Futebol © x IDE © Todos os direitos reservados.</div>
-             
-             
-             
-             
-              <div className="footer_texto border-test">
-                  <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                      <a href="#" className="nav-link">Termos de Uso</a>
-                    </li>
-                    <li className="nav-item divisor">|</li>
-                    <li className="nav-item">
-                      <a href="#" className="nav-link">Politica de Privacidade</a>
-                    </li>
-                    <li className="nav-item divisor">|</li>
-                    <li className="nav-item">
-                      <a href="#" className="nav-link">Política de Cookies</a>
-                    </li>
-
+           
+            <div className=" col-md-8 ">
+              <div className="footer_texto ">
+                Confederação Brasileira de Futebol © x IDE © Todos os direitos reservados.
+              </div>
+              <nav className="navbar  navbar-expand-lg navbar-light footer_texto ">
+                  <div className="navbar-nav float-right ">
                     
+                      <a href="#" className="nav-item nav-link active">Termos de Uso</a>
 
+                      <a href="#" className="nav-item nav-link disabled">|</a>    
+                  
+                      <a href="#" className="nav-item nav-link active">Politica de Privacidade</a>
                     
-                  </ul>
-                </div> 
-              
+                      <a href="#" className="nav-item nav-link disabled">|</a>
+
+                      <a href="#" className="nav-item nav-link active">Política de Cookies</a>
+                   
+ 
+                  </div>
+                </nav> 
             </div>
             {/*<!--Grid column-->*/}
 
              {/*<!--Grid column-->*/}
-            <div className="col-lg-2 col-md-4 ">
-              <img src={ideLogo} alt = "Ide Company" className='' ></img>
+            <div className=" col-md-2 ">
+              
+              <img src={ideLogo}  className="imagem_rodape " alt = "Ide Company"  ></img>
 
               
             </div>

@@ -25,12 +25,13 @@ footer {
   }
   
   .footer_texto {
-    text-align: center;
+    padding-top: 50px;
+    text-align: center ;
+    width: 100%;
   }
-img {
-    height: auto;
-    width: 200px;
-}
+
+
+
  
 
 .border-test{
@@ -40,4 +41,23 @@ img {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
+}
+
+.imagem_rodape {
+  padding-top: 40px;
+  width: 140px;
+}
+.imagem_rodape_cbf {
+  padding-top: 20px;
+  width: 100px;
+}
+
+footer .navbar-nav a {
+	color: white !important;
+  
+	font-size: 1.2em;
+}
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
 }
