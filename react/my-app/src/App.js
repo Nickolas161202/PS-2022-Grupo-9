@@ -30,7 +30,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import Navbar from './components/common/navbar';
-import Footer from './components/common/footer';
+import Footer from './components/common/footer/Footer';
 import PlayerBlue from './components/common/PlayerBlue';
 import Attackers from './screens/Attackers';
 
@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <Navbar />
-  
+      
       <Attackers/>
       <br />
       <br />
