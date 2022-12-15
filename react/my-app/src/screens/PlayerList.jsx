@@ -1,20 +1,12 @@
 import React from 'react';
+import Atacantes from './Atacantes';
 
- const PlayerList =()  =>{
+const ListaDeAtacantes = () => {
   return (
-    <div>
-      <header>
-        <nav>
-          <ul class="">
-            <li><a href='./Atacantes.jsx'>Atacantes</a></li>
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#Jogadores">Jogadores</a></li>
-            <li><a href="#Jogos">Jogos</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <ul>
+      { Atacantes.map( (Atacantes) => <li>{ Atacantes }</li>) }
+    </ul>
   );
 }
 
-export default  PlayerList
+export default ListaDeAtacantes
