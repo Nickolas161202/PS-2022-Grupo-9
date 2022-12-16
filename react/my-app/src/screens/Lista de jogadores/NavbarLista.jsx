@@ -1,10 +1,9 @@
 import {useState} from 'react'
-import PlayerList from './PlayerList'
-
+import PlayerList from '../PlayerList'
 function NavbarLista (){
     return (
         <div>
-            <button onClick={PlayerList}> </button>
+            <button onClick={PlayerList}>aosfjasoifjasoifhj</button>
         </div>
     )
 

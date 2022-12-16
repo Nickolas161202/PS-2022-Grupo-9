@@ -1,12 +1,13 @@
-import React from 'react';
-import Atacantes from './Atacantes';
+// import React from 'react';
+// import Atacantes from './Atacantes';
 
-const ListaDeAtacantes = () => {
-  return (
-    <ul>
-      { Atacantes.map( (Atacantes) => <li>{ Atacantes }</li>) }
-    </ul>
-  );
-}
+// const ListaDeAtacantes = () => {
+//     const Atacantes = [<ListaDeAtacantes/>]
+//   return (
+//     <ul>
+//       { Atacantes.map( (Atacantes) => <li>{ Atacantes }</li>) }
+//     </ul>
+//   );
+// }
 
-export default ListaDeAtacantes
+// export default ListaDeAtacantes
