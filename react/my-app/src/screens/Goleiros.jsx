@@ -1,5 +1,5 @@
-import PlayerBlue from "../components/common/PlayerBlue"
 import React from "react"
+<<<<<<< Updated upstream
 import PlayerGreen from "../components/common/PlayerGreen"
 const Goleiros = () =>{
  return(
@@ -24,5 +24,26 @@ const Goleiros = () =>{
     </div>
     )
 }
+=======
 
-export default Goleiros
+const Goleiros=[
+ {jogadores: "24", idade: "27", inicial: "J"},  
+ {jogadores: "25", idade: "31", inicial: "J"},
+ {jogadores: "26",idade: "25", inicial: "J"},
+    ];
+>>>>>>> Stashed changes
+
+const ListaGoleiros=Goleiros.map(
+    (g,i)=>
+    <li key={i}>{i} {g.joagores}
+    <ol> 
+        <li>  {g.idade}</li>
+    </ol>
+      {g.inicial}
+     </li>
+
+
+)
+
+
+export default ListaGoleiros
