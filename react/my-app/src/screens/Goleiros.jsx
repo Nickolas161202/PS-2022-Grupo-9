@@ -1,6 +1,6 @@
 import PlayerBlue from "../components/common/PlayerBlue"
 import React from "react"
-
+import PlayerGreen from "../components/common/PlayerGreen"
 const Goleiros = () =>{
  return(
  <div>

@@ -5,6 +5,7 @@ import Footer from './components/common/footer/Footer';
 import Sobre from './screens/Sobre';
 
 import Atacantes from './screens/Atacantes';
+import Rendering from './screens/test';
 
 function App() {
   return (
@@ -22,9 +23,10 @@ function App() {
       <br />
       <br />
       <br />
-      <br /> 
       <br />
-      <Atacantes/>
+      <Rendering/>
+      <br />
+      {/* <Atacantes/> */}
       <br />
       <br />
       <br />
