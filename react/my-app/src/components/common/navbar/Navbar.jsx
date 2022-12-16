@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     
       <header>
-      <nav className="navbar text-uppercase navbar-dark navbar-expand-md fixed-top  border_teste">
+      <nav className="navbar text-uppercase navbar-dark navbar-expand-md fixed-top border_teste">
         <div className="container tamanho border_teste">
           <button className="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
             <a className=" text-white"> IDE</a>
