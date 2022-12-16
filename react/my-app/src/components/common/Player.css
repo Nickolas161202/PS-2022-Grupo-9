@@ -1,0 +1,40 @@
+.img_jogador {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.faixa_green {
+    color: #079A5A;
+    background-color: #EEEE;
+}
+
+.faixa_blue {
+    color: #0E389C;
+}
+
+.faixa_blue, .faixa_green {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.circle_green {
+    background: #079A5A;
+  }
+
+  .circle_blue {
+    background: #0E389C;
+  }
+
+  .circle_blue, .circle_green {
+    width: 150px;
+    height: 150px;
+    /* line-height: 500px; */
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .inicial {
+    text-align: center;
+  }

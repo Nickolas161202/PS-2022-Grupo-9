@@ -29,14 +29,25 @@ import React from 'react';
 // import ReactDOM from 'react-dom/client';
 import Navbar from './components/common/navbar';
 import Footer from './components/common/footer/Footer';
-import PlayerBlue from './components/common/PlayerBlue';
 import Atacantes from './screens/Atacantes';
 
 function App() {
   return (
     <>
       <Navbar />
-      
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> 
+      <br />
       <Atacantes/>
       <br />
       <br />
