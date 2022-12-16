@@ -6,13 +6,17 @@ const Sobre = () => {
     return (
         
         <div>
-            <img src={title} alt="" />
+            
+            <img src={title} alt="topImage" className={styles.image} />
+
+            <h1 className={styles.title}>Seleção Brasileira De Futebol</h1>
+            
             <div className={styles.header}>
                 <h1 className={styles.textHeader} >Sobre A Seleção</h1>
             </div>
 
             <div>
-                <p className={styles.text}>A Seleção Brasileira de Futebol representa o Brasil nas competições de futebol da CONMEBOL e FIFA. </p>
+                <p className={styles.text}>A Sele   ção Brasileira de Futebol representa o Brasil nas competições de futebol da CONMEBOL e FIFA. </p>
             </div>
 
             <div>
