@@ -13,7 +13,7 @@ footer {
     font-size: 20px !important;
   }
   
-  .footer_img_brasil, .footer_texto, .footer_img_ide {
+  .imagem_rodape_cbf, .footer_texto, .footer_img_ide {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -31,7 +31,7 @@ footer {
     width: 100%;
   }
 
-
+ 
 
  
 
@@ -39,9 +39,7 @@ footer {
   border: 1px solid  red;
 }
 .divisor {
-	width: 1px;
-	background: white;
-	margin: 12px 15px;
+	color: white;
 }
 
 .imagem_rodape {
@@ -61,4 +59,21 @@ footer .navbar-nav a {
 footer .navbar-nav a:hover {
 	color: #9bf0e1;
 	text-decoration: none;
+} 
+
+@media (max-width: 991.98px) {
+    .divisor {
+      display: none;
+    }
+  }
+
+
+@media  (max-width: 767.98px){
+  .imagem_rodape_cbf{
+     display: none;
+    }
+    .imagem_rodape{
+      display: none;
+     }
 }
+

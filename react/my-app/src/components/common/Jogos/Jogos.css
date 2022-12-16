@@ -56,3 +56,11 @@ body{
 .bottom p{
 	margin-bottom: 4px;
 }
+@media (max-width: 575.98px) {
+	img{
+		
+		margin-left: 0px;
+		margin-right: 0px;
+		
+	}
+  }
