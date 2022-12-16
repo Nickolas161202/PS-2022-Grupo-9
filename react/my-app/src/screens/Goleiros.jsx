@@ -1,4 +1,5 @@
 import PlayerBlue from "../components/common/PlayerBlue"
+import React from "react"
 
 const Goleiros = () =>{
  return(

@@ -1,5 +1,6 @@
 import PlayerBlue from "../components/common/PlayerBlue"
 import PlayerGreen from "../components/common/PlayerGreen"
+import React from "react"
 
 const Defensores = () =>{
  return(

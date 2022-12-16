@@ -1,7 +1,9 @@
 import React from 'react';
+import Atacantes from './Atacantes';
 
- const PlayerList =()  =>{
+const ListaDeAtacantes = () => {
   return (
+<<<<<<< HEAD
     <div>
       <header>
         <nav>
@@ -14,7 +16,12 @@ import React from 'react';
         </nav>
       </header>
     </div>
+=======
+    <ul>
+      { Atacantes.map( (Atacantes) => <li>{ Atacantes }</li>) }
+    </ul>
+>>>>>>> fe77c5973690ddc3eb1c1a71e5767f1f714cd73a
   );
 }
 
-export default  PlayerList
+export default ListaDeAtacantes

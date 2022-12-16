@@ -1,5 +1,6 @@
 import PlayerBlue from "../components/common/PlayerBlue" //importação do componente utilizado como base
 import PlayerGreen from "../components/common/PlayerGreen"
+import React from "react"
 
 const MeioCampo = () =>{ //função que renderiza a lista de meio campos
  return(
