@@ -25,11 +25,11 @@ export default function Footer() {
                     
                       <a href="#" className="nav-item nav-link active">Termos de Uso</a>
 
-                      <a href="#" className="nav-item nav-link disabled">|</a>    
+                      <a href="#" className="nav-item nav-link disabled ">|</a>    
                   
                       <a href="#" className="nav-item nav-link active">Politica de Privacidade</a>
                     
-                      <a href="#" className="nav-item nav-link disabled">|</a>
+                      <a href="#" className="nav-item nav-link disabled ">|</a>
 
                       <a href="#" className="nav-item nav-link active">Política de Cookies</a>
                    
