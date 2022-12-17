@@ -11,7 +11,7 @@ const Sobre = () => {
             <h1 className={styles.title}>Seleção Brasileira De Futebol</h1>
             </div>
             <div className={styles.header}>
-                <h1 className={styles.textHeader} >Sobre A Seleção</h1>
+                <h1 className={styles.textHeader} >SOBRE A SELEÇÃO</h1>
             </div>
 
             <div className={styles.textContainer}>

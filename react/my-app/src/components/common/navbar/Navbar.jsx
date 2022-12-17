@@ -12,7 +12,7 @@ export default function Navbar() {
           </button>
           
           <div className="border_teste tamanho collapse navbar-collapse" id="nav-principal">
-            <ul className="navbar-nav  tamanho">
+            <ul className="navbar-nav tamanho">
               
                 <a href="#" className="nav-item border_teste nav-link active ">Home</a>
              
@@ -22,7 +22,6 @@ export default function Navbar() {
             
                 <a href="#" className="nav-item border_teste nav-link active ">Jogadores</a>
              
-
            
                 <a href="#" className="nav-item border_teste nav-link active ">Jogos</a>
              
