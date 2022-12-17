@@ -8,12 +8,10 @@ import Playerlist from './Playerlist';
 
 function MainScreen() {
   return (
-    <div>
-         <Navbar/> 
+    <div className='bg-white'>
+      <Navbar/> 
       <Sobre/>
-      
       <Playerlist/>
-      
       <Jogos/>
       <Footer />
     </div>

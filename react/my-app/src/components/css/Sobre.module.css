@@ -8,15 +8,15 @@
 .mainContainer{
     width: 100%;
     height: 100%;
-    justify-content: space-between;
+   
 }
 
-.image{
-    margin-top: 3%;
+.mainContainer{
     width: 100%;
     height: 620px;
     top: 40px;
-    margin-left: 0px;
+    margin-left: 0%;
+    height: 5%;
 }
 
 .title {
@@ -36,11 +36,12 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    letter-spacing: 0em;
-    text-align: left;
+
+    text-align: center;
     color: white;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .header{
@@ -48,7 +49,8 @@
     align-items: center;
     margin: auto;
     margin-top: 7%;
-    width: fit-content;
+    width: 24%;
+    height: 10%;
     margin-bottom: 10%;
     background: #0E389C;
 }
@@ -57,7 +59,9 @@
     margin: auto;
     margin-top: 3%;
     text-align: justify;
-    display: flex;
+    display:flex;
+    padding: 1rem;
+    
     width: 50%;
     height: 50%;
 }
@@ -68,13 +72,53 @@
     text-align: justify;
     display: flex;
     width: 50%;
+    
+    background: #6A81BA42;
+    
+    padding: 2rem;
+    
+}
+
+.stadium{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    display:flex;
+    width: 50%;
+    
+    background: #6A81BA42;
+    
+    padding: 2rem;
+    
+}
+
+.stadium{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    display:flex;
+    margin-top: 2%;
+    margin-bottom: 1%;
     height: 50%;
 }
 
 .text{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 300;
     line-height: 30px;
-    letter-spacing: 0em;
-    text-align: justified;
+    text-align: justify;
+}
+.bottomTextContainer{
+    margin: auto;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.bottomText{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 30px;
+    
 }
