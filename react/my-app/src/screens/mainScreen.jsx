@@ -15,6 +15,8 @@ function MainScreen() {
       <Jogos/>
       <Footer />
     </div>
+   
+    
   );
   }
 

@@ -8,24 +8,24 @@ import styles from '../components/css/Playerlist.modules.css'
 const Playerlist = () => {
     const [state, setState] = useState("a")
 
-
     return (
         <div>
-            <div style={styles.header}>
-          <p style={styles.textHeader}>Jogadores</p>
+            <div className="container">
+                <h3 className="px-5 py-1">JOGADORES</h3>
             </div>
-
-            <button onClick={() => setState("a")}>Atacantes</button>
-            <button onClick={() => { setState("g") }}>Goleiros</button>
-            <button onClick={() => setState("m")}>Meio De Campo</button>
-            <button onClick={() => { setState("d") }}>Defensores</button>
-
+            <div className="container menu">
+                <div className="row align-items-start">
+                    <button className="col px-5 py-1" onClick={() => setState("a")}>Atacantes</button>
+                    <button className="col px-5 py-1" onClick={() => setState("m")}>Meio_Campo</button>
+                    <button className="col px-5 py-1" onClick={() => { setState("d") }}>Defensores</button>
+                    <button className="col px-5 py-1" onClick={() => { setState("g") }}>Goleiros</button>
+                </div>
+            </div>
             {(state == "a") ? <div><Atacantes /> </div> : ''}
             {(state == "g") ? <div><Goleiros /> </div> : ''}
             {(state == "m") ? <div> <MeioCampo /> </div> : ''}
             {(state == "d") ? <div> <Defensores /></div> : ''}
         </div>
-
     )
 }
 
