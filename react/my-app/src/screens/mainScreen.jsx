@@ -5,17 +5,17 @@ import Jogos from '../components/common/Jogos/Jogos';
 import Sobre from './Sobre';
 import Playerlist from './Playerlist';
 import Banner from '../components/common/Banner';
+import './MainScreen.css'
 
 
 function MainScreen() {
   return (
     <div className='bg-white'>
-      
       <Navbar/>
       <Banner/> 
-      <Sobre/>
-      <Playerlist/>
-      <Jogos/>
+      <div id='sobre'><Sobre/></div>
+      <div id='jogadores'><Playerlist/></div>
+      <div id='jogos'><Jogos/></div>
       <Footer />
     </div>
    

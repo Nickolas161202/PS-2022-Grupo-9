@@ -20,15 +20,15 @@ export default function Navbar() {
             </li>
             <li className="nav-item divisor "></li>
             <li className="nav-item">
-              <a href="#" className="nav-link tam-texto">SOBRE</a>
+              <a href="#sobre" className="nav-link tam-texto">SOBRE</a>
             </li>
             <li className="nav-item divisor"></li>
             <li className="nav-item">
-              <a href="#" className="nav-link tam-texto">JOGADORES</a>
+              <a href="#jogadores" className="nav-link tam-texto">JOGADORES</a>
             </li>
             <li className="nav-item divisor"></li>
             <li className="nav-item">
-              <a href="#" className="nav-link tam-texto">JOGOS</a>
+              <a href="#jogos" className="nav-link tam-texto">JOGOS</a>
             </li>
 
            

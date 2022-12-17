@@ -1,6 +1,4 @@
-
-
-import MainScreen from "./screens/mainScreen";
+import MainScreen from "./screens/MainScreen";
 
 
 
