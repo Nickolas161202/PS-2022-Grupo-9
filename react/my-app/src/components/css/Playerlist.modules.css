@@ -9,7 +9,6 @@
  }
 
  .textHeader{
-    color: white;
     position: absolute;
     width: 124px;
     height: 30px;
@@ -17,7 +16,7 @@
     top: 34px;
     
     font-family: 'Poppins';
-    font-style: normal;
+  
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;}
