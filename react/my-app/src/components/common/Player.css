@@ -27,6 +27,7 @@
 
 .faixa_blue {
     color: #0E389C;
+    background-color: white;
 }
 
 .faixa_blue, .faixa_green {
@@ -51,7 +52,6 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* text-align: center; */
     font-size: 4rem;
     font-weight: 700;
     color: rgb(255, 255, 255);

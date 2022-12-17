@@ -7,7 +7,7 @@
 
 footer {
     display: flex;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     justify-content: center;
     background-color: #20195f;
     font-size: 20px !important;

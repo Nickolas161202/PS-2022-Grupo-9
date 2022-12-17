@@ -4,9 +4,7 @@ import title from  "../components/assets/title.png"
 
 const Sobre = () => {
     return (
-        
         <div>
-            
             <img src={title} alt="topImage" className={styles.image} />
 
             <h1 className={styles.title}>Seleção Brasileira De Futebol</h1>
@@ -36,13 +34,7 @@ const Sobre = () => {
             </div>
             <p className={styles.text}>MAIS QUE 5 ESTRELAS, 200 MILHÕES DE CORAÇÕES</p>
             <p className={styles.text}>É taça na raça Brasil</p>
-            
-
-
-
-
         </div>
-
     )
 }
 

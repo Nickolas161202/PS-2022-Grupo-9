@@ -7,42 +7,42 @@ const Defensores = () =>{
     <div>
         <ol>
             <PlayerBlue
-            jogadores = "16"
+            jogador = "16"
             idade = "27"
             inicial = "J"
             />   
             <PlayerGreen
-            jogadores = "17"
+            jogador = "17"
             idade = "31"
             inicial = "J"
             />   
             <PlayerBlue
-            jogadores = "18"
+            jogador = "18"
             idade = "25"
             inicial = "J"
             /> 
             <PlayerGreen 
-            jogadores = "19"
+            jogador = "19"
             idade = "34"
             inicial = "J"
             />
             <PlayerBlue
-            jogadores = "20"
+            jogador = "20"
             idade = "19"
             inicial = "J"
             />   
             <PlayerGreen
-            jogadores = "21"
+            jogador = "21"
             idade = "34"
             inicial = "J"
             />
             <PlayerBlue
-            jogadores = "22"
+            jogador = "22"
             idade = "25"
             inicial = "J"
             />   
             <PlayerGreen
-            jogadores = "23"
+            jogador = "23"
             idade = "34"
             inicial = "J"
             /> 

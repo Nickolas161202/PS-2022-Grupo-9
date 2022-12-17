@@ -6,32 +6,32 @@ const MeioCampo = () =>{ //função que renderiza a lista de meio campos
     <div>
         <ol>
         <PlayerBlue
-        jogadores = "10"
+        jogador = "10"
         idade = "27"
         inicial = "J"
         />   
         <PlayerGreen
-        jogadores = "11"
+        jogador = "11"
         idade = "31"
         inicial = "J"
         />   
         <PlayerBlue
-        jogadores = "12"
+        jogador = "12"
         idade = "25"
         inicial = "J"
         />   
         <PlayerGreen
-        jogadores = "13"
+        jogador = "13"
         idade = "34"
         inicial = "J"
         />   
         <PlayerBlue
-        jogadores = "14"
+        jogador = "14"
         idade = "19"
         inicial = "J"
         />   
         <PlayerGreen
-        jogadores = "15"
+        jogador = "15"
         idade = "19"
         inicial = "J"
         />   

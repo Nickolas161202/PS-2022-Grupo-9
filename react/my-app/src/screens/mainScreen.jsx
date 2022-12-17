@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/common/navbar';
 import Footer from '../components/common/footer/Footer';
@@ -13,24 +12,12 @@ import Goleiros from './Goleiros';
 
 function MainScreen() {
   return (
-    <div>
-     <Navbar/> 
-    <Sobre/>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+    <div className='bg-white'>
+      <Navbar/> 
+      <Sobre/>
       <Rendering/>
       <br />
-     <Goleiros/>
+      <Goleiros/>
       <br />
       <br />
       <br />

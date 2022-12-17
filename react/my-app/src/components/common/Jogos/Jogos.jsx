@@ -12,7 +12,7 @@ export default function Jogos() {
     
     <div className="container jogos" >
 
-        <h3 className="text-light">PRÓXIMOS JOGOS</h3>
+        <h3 className="py-5">PRÓXIMOS JOGOS</h3>
 
         <div className="top ">
             <img src={brasil} className="left" alt = "Brasil"></img>
@@ -24,9 +24,7 @@ export default function Jogos() {
             <p className="font-weight-bold">Quinta-feira</p>
             <p>02/11</p>
             <p>07:20</p>
-
         </div>
-
 
         <div className="top ">
             <img src={brasil} className="left" alt = "Brasil"></img>
@@ -38,7 +36,6 @@ export default function Jogos() {
             <p className="font-weight-bold">Sexta-feira</p>
             <p>07/11</p>
             <p>08:00</p>
-
         </div>
         <div className="top ">
             <img src={brasil} className="left" alt = "Brasil"></img>
@@ -50,12 +47,7 @@ export default function Jogos() {
             <p className="font-weight-bold">Sabado</p>
             <p>02/11</p>
             <p>20:30</p>
-
         </div>
-
-        
-
-     
     </div>
   )
 }

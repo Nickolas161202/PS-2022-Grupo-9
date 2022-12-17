@@ -1,15 +1,20 @@
-.border_teste{
-	height: 60px;
-	padding-top: 5px;
-	width: 100%;
-}
-.tamanho{
-	width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&display=swap');
+
+* {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
 }
 
-nav{
-	background: #20195f ;
-	color: white;
+.jogos {
+	background-color: #0E389C;
+	width: 100%;
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	place-items: center;
+	width: 100%;
 }
 
 .top{
@@ -31,26 +36,15 @@ nav{
 }
 
 h3{
-	margin-bottom: 50px;
+	font-weight: 700;
+	color: white;
 }
+
 img{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 15px;
 	margin-right: 15px;
-	
-}
-
-.container {
-	display: grid;
-	place-items: center
-	
-
-}
-
-body{
-	background: #0E389C;
-	
 }
 
 .bottom p{
@@ -63,4 +57,4 @@ body{
 		margin-right: 0px;
 		
 	}
-  }
+}
