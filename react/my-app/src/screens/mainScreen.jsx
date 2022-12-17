@@ -3,26 +3,17 @@ import Navbar from '../components/common/navbar';
 import Footer from '../components/common/footer/Footer';
 import Jogos from '../components/common/Jogos/Jogos';
 import Sobre from './Sobre';
-
-import Atacantes from './Atacantes';
-import Rendering from './test';
-import ListaGoleiros from './Goleiros';
-import Goleiros from './Goleiros';
+import Playerlist from './Playerlist';
 
 
 function MainScreen() {
   return (
-    <div className='bg-white'>
+    <div className='bg-white, m-2000, width:500px'>
       <Navbar/> 
       <Sobre/>
-      <Rendering/>
-      <br />
-      <Goleiros/>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      
+      <Playerlist/>
+      
       <Jogos/>
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-import MainScreen from "./screens/MainScreen";
+import MainScreen from "./screens/Mainscreen";
 
 function App() {
 return(
