@@ -5,11 +5,8 @@ import title from  "../components/assets/title.png"
 const Sobre = () => {
     return (
         <div className = {styles.mainContainer}>
-            <div className={styles.mainImage}>
-            <img src={title} alt="topImage" className={styles.image} />
-
             <h1 className={styles.title}>Seleção Brasileira De Futebol</h1>
-            </div>
+            
             <div className={styles.header}>
                 <h1 className={styles.textHeader} >SOBRE A SELEÇÃO</h1>
             </div>
@@ -23,12 +20,12 @@ const Sobre = () => {
                     história do futebol mundial,sendo a recordista em conquistas em Copas do Mundo.
                 </p>
             </div>
-            
+          
             <div className={styles.blueContainer}>
                 <p className={styles.text}>
                     Tem 5 títulos invictos (1958, 1962, 1970, 1994 e 2002) e quatro títulos da Copa das Confederações FIFA (1997, 2005, 2009 e 2013).
                 </p>
-            </div>
+                </div>
                 <img src={estadio} alt="img" className={styles.stadium} />
             <div className={styles.bottomTextContainer}>
                 <p className={styles.bottomText}>MAIS QUE 5 ESTRELAS, 200 MILHÕES DE CORAÇÕES</p>

@@ -40,6 +40,7 @@
     color: white;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     
 }
 
@@ -73,7 +74,7 @@
     width: 50%;
     
     background: #6A81BA42;
-    
+    border-left: 1rem  #0E389C solid;
     padding: 2rem;
     
 }
@@ -85,9 +86,6 @@
     width: 50%;
     display:flex;
     width: 50%;
-    
-    background: #6A81BA42;
-    
     padding: 2rem;
     
 }
