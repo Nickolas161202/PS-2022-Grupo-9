@@ -7,14 +7,15 @@
 
 .jogos {
 	background-color: #0E389C;
-	width: 100%;
-	margin: 0;
+	box-sizing: border-box;
+	
+	
 }
 
 .container {
 	display: grid;
 	place-items: center;
-	width: 100%;
+	
 }
 
 .top{
@@ -50,11 +51,49 @@ img{
 .bottom p{
 	margin-bottom: 4px;
 }
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	img{
-		
 		margin-left: 0px;
-		margin-right: 0px;
+		margin-right: 0px;	
+	}
+	.container {
+		max-width: 576px;
 		
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.container {
+		
+		 max-width: 767.98px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container {
+		
+		max-width: 991.98px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		
+		max-width: 1199.98px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.container {
+		
+		max-width: 1600px;
 	}
 }

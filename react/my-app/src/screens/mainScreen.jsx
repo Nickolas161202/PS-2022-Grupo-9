@@ -8,8 +8,8 @@ import Playerlist from './Playerlist';
 
 function MainScreen() {
   return (
-    <div className='bg-white, m-2000, width:500px'>
-      <Navbar/> 
+    <div>
+         <Navbar/> 
       <Sobre/>
       
       <Playerlist/>
@@ -17,6 +17,8 @@ function MainScreen() {
       <Jogos/>
       <Footer />
     </div>
+   
+    
   );
   }
 

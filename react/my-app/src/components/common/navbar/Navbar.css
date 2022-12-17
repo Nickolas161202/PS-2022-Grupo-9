@@ -1,13 +1,10 @@
 nav{
 	background: #20195f ;
 	color: white;
+	background-attachment: fixed;
 }
 
-body {
-	
-	background-attachment: fixed;
-	
-}
+
 
 /* Barra de navegação
 -----------------------------*/
@@ -66,6 +63,7 @@ nav.navbar-transparente {
 }
 @media (min-width: 767.98px) {
 	.divisor{
+		
 		width: 100px;
 	}
 }
