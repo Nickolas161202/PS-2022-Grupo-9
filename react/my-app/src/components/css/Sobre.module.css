@@ -36,20 +36,19 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-
     text-align: center;
     color: white;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    
 }
 
 .header{
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 7%;
-    width: 24%;
+    margin-top: 30px;
+    width: 40%;
     height: 10%;
     margin-bottom: 10%;
     background: #0E389C;
@@ -113,7 +112,9 @@
 .bottomTextContainer{
     margin: auto;
     justify-content: center;
-    margin-left: 25%;
+    width: 50%;
+    padding-bottom: 50px;
+
 }
 
 .bottomText{
@@ -121,4 +122,132 @@
     font-weight: 300;
     line-height: 30px;
     
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+    .text{
+        font-size: 2rem;
+        
+    }
+    .textHeader{
+        font-size: 30px;
+    }
+    .textContainer{  
+        width: 80%;  
+    }
+    .blueContainer{     
+        width: 80%;
+    }
+    .stadium{
+        width: 80%;
+    }
+    .bottomTextContainer{
+        
+        width: 80%;
+    }
+    .header{
+      
+        width: 70%;
+       
+    }
+}
+
+@media (max-width: 575.98px) {
+    .bottomText{
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.text{
+        font-size: 2.5rem;
+        
+    }
+    .textHeader{
+        font-size: 30px;
+    }
+    .textContainer{  
+        width: 60%;  
+    }
+    .blueContainer{     
+        width: 60%;
+    }
+    .stadium{
+        width: 60%;
+    }
+    .bottomTextContainer{
+        
+        width: 60%;
+    }
+    .bottomText{
+        font-size: 1.5rem;
+    }
+    .header{
+      
+        width: 70%;
+       
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container {
+		
+		max-width: 991.98px;
+	}
+    .text{
+        font-size: 2.5rem;
+        
+    }
+    .textHeader{
+        font-size: 30px;
+    }
+    .textContainer{  
+        width: 60%;  
+    }
+    .blueContainer{     
+        width: 60%;
+    }
+    .stadium{
+        width: 60%;
+    }
+    .bottomTextContainer{
+        
+        width: 60%;
+    }
+    .bottomText{
+        font-size: 1.5rem;
+    }
+    .header{
+      
+        width: 50%;
+       
+    }
+   
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.container {
+		
+		max-width: 1600px;
+	}
+    .header{
+      
+        width: 60%;
+      
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.container {
+		
+		max-width: 2000px;
+	}
 }

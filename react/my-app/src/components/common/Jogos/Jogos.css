@@ -7,7 +7,7 @@
 
 .jogos {
 	background-color: #0E389C;
-	box-sizing: border-box;
+	
 	
 	
 }
@@ -86,7 +86,7 @@ img{
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	.container {
 		
-		max-width: 1199.98px;
+		max-width: 1600px;
 	}
 }
 
@@ -94,6 +94,6 @@ img{
 @media (min-width: 1200px) {
 	.container {
 		
-		max-width: 1600px;
+		max-width: 2000px;
 	}
 }
