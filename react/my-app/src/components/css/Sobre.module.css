@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&display=swap');
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
 
 * {
     font-size: 62.5%;
@@ -6,9 +11,9 @@
 }
 
 .image{
-    position: absolute;
+   margin-top: 3%;
     width: 100%;
-    /* height: 650px; */
+    height: 620px; 
     top: 40px;
     margin-left: 0px;
 }
@@ -27,28 +32,52 @@
 }
 
 .textHeader {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .header{
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    width: 198px;
-    height: 28px;
-    left: 330px;
-    top: 39px;
-    position: relative;
+    margin-top: 7%;
+    width: fit-content;
+    margin-bottom: 10%;
+    
     background: #0E389C;
 }
 
+.textContainer{
+    margin: auto;
+    margin-top: 3%;
+    text-align: justify;
+    display:flex;
+    
+    width: 50%;
+    height: 50%;
+    
+}
+
+.blueContainer{
+    margin: auto;
+    margin-top: 3%;
+    text-align: justify;
+    display:flex;
+    width: 50%;
+    height: 50%;
+    
+}
+
 .text{
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 300;
-    line-height: 21px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: justified;
 }
